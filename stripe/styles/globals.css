@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+   
+  }
+}
+
+body {
+}
+
+nav{
+  
+  background-color: #000;
+}
+
+.linkWrapper {
+  width: 75px;
+  margin: 0 0 0px 1000px;
+}
+
+#bookNowBtn{
+  margin-left: 20px;
+}
+#imgCarousel{
+  height: 671px;
+
+}
+
+
+h2{
+color: var(--black-black-70, #283646);
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Lobster, sans-serif;
+font-size: 41px;
+font-style: normal;
+font-weight: 400;
+line-height: 63.984px; /* 156.059% */
+}
+
+.navLinks{
+  color: white;
+}
